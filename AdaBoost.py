@@ -26,7 +26,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y,test_size=0.2)
 plt.scatter(X[:50,0],X[:50,1],label='0')
 plt.scatter(X[50:,0],X[50:,1],label='1')
 plt.legend()
-
+plt.show()  # use plt.show() to watch the image classify result
 
 class AdaBoost:
     def __init__(self, n_estimators=50,learning_rate=0.1):
@@ -165,5 +165,5 @@ class AdaBoost:
 
 X = np.arange(10).reshape(10,1)
 y = np.array([1, 1, 1, -1, -1, -1, 1, 1, 1, -1])
-X
+print(X)
 
