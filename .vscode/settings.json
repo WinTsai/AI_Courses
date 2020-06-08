@@ -1,4 +1,4 @@
 {
-    "python.pythonPath": "D:\\softwareInstalled\\Anconda3\\python.exe",
+    "python.pythonPath": "D:\\softwareInstalled\\Anconda3\\envs\\tensor\\python.exe",
     "python.linting.pylintArgs":["--generate-members"]
 }
